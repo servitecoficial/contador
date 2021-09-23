@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botonera</title>
+    <source src="/js/" type="">
+</head>
+<body>
+    <head>
+        <!-- Bueno charset me ndica la codificación de caracteres utilizada-->
+        <meta charset="utf-8">
+        <title>Numerologo</title>
+        <style type="text/css">
+            #areaContador {
+                font-size: 40px;
+                font-weight: bold;
+                font-family: impact;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <button id="botonClick">hace click perro (?</button>
+        <p id="areaContador"></p>
+
+
+        
+        <script type="text/javascript">
+            var botonElement = document.getElementById("botonClick");
+            var pElement = document.getElementById("areaContador");
+            var contador = 0;
+            botonElement.onclick = function () {
+                contador++;
+                pElement.textContent = contador;
+            }
+        </script>
+    </body>
+</html>

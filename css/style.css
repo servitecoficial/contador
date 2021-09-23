@@ -1,0 +1,39 @@
+.container {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+ }
+ 
+ .numuno {
+     text-align: center;
+     
+ }
+ .numdos {
+     text-align: center;
+     margin-top: 10px;
+ }
+ 
+ .resultado {
+    
+     border: 3px solid red;
+     float: right;
+     width: 200px;
+     top: 0px;
+     right: 100px;
+     text-align: center;
+     
+ }
+ 
+ .boton {
+     text-align: center;
+     margin-top: 10px;
+ }
+ 
+ span {
+     margin: auto;
+     text-align: center;
+     
+     width: 50px;
+     
+ }
